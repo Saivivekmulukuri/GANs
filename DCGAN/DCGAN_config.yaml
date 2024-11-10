@@ -1,0 +1,19 @@
+checkpoint_dir: "path/to/checkpoints_dir"
+fig_dir: "path/to/Figures_dir"
+manualSeed: 999
+batch_size: 128
+image_size: 64
+workers: 2
+nc: 3
+nz: 100
+ngf: 64
+ndf: 64
+ngpu: 1
+num_epochs: 2
+lr: 0.0002
+beta1: 0.5
+dataset_name: "jonathan-roberts1/Million-AID"  # Add the dataset name here
+data_source: "huggingface"  # Can be 'huggingface' or 'imagedir'
+image_dir: "path/to/test_dataset"  # Path to dataset directory if data_source is 'imagedir', directory should contain atleast one sub-directories containing images
+reproducible: True  # Set to true for reproducibility
+genckpt: "generator_final.pth"  #generator checkpoint file name inside checkpoints directory

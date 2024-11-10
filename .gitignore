@@ -1,0 +1,10 @@
+#DCGAN/checkpoints/
+*.pth  # ignore all .pth files if needed
+
+# Ignore any temporary or cache files
+__pycache__/
+*.log
+
+# Optional: Ignore system files (common on macOS and Windows)
+.DS_Store
+Thumbs.db
