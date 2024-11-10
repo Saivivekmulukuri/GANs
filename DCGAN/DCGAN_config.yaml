@@ -1,5 +1,5 @@
-checkpoint_dir: "path/to/checkpoints_dir"
-fig_dir: "path/to/Figures_dir"
+checkpoint_dir: "checkpoints"
+fig_dir: "Figures"
 manualSeed: 999
 batch_size: 128
 image_size: 64
