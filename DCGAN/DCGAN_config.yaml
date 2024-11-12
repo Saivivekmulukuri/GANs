@@ -1,17 +1,17 @@
-checkpoint_dir: "checkpoints"
-fig_dir: "Figures"
+checkpoint_dir: "checkpoints" #Path to checkpoints
+fig_dir: "Figures" # Path to output images, plots, and collage figures
 manualSeed: 999
 batch_size: 128
 image_size: 64
 workers: 2
-nc: 3
-nz: 100
-ngf: 64
-ndf: 64
-ngpu: 1
-num_epochs: 2
-lr: 0.0002
-beta1: 0.5
+nc: 3 # Number of channels present in the image (3 for RGB images)
+nz: 100 # Latent space dimension
+ngf: 64 # Number of features in the generator layers
+ndf: 64 # Number of features in the discriminator layers
+ngpu: 1 # Number of GPUs available for training
+num_epochs: 100 # Number of epochs to train the model for
+lr: 0.0002 # learning rate
+beta1: 0.5 # Optimizer parameter
 dataset_name: "jonathan-roberts1/Million-AID"  # Add the dataset name here
 data_source: "huggingface"  # Can be 'huggingface' or 'imagedir'
 image_dir: "path/to/test_dataset"  # Path to dataset directory if data_source is 'imagedir', directory should contain atleast one sub-directories containing images
