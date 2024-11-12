@@ -4,7 +4,9 @@ Repository containing implementation of GANs for generating images trained on a 
 ## Model training
 1. Run `pip install -r requirements.txt`
 2. `DCGAN_config.yaml` have default configuration for training the DCGAN on `Million-AID` dataset. Can be further modified according to the requirements.
-3. Run `python train.py` to train DCGAN
+3. `cd DCGAN`
+4. Run `python train.py` to train DCGAN
 
 ## For Generating Image
-1. Run `python generate_images.py`
+1. `cd DCGAN`
+2. Run `python generate_images.py`
